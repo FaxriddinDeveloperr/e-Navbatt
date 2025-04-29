@@ -4,12 +4,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/app.js"
+    "dev": "node --watch --env-file=.env src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.7",
@@ -22,5 +21,14 @@
     "nodemailer": "^6.10.1",
     "nodemon": "^3.1.9",
     "otp-generator": "^4.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilshod-gaynazarov/e-navbat-n20.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dilshod-gaynazarov/e-navbat-n20/issues"
+  },
+  "homepage": "https://github.com/dilshod-gaynazarov/e-navbat-n20#readme",
+  "description": ""
 }
